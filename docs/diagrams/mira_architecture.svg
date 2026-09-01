@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 812" width="1080" height="812" font-family="'Helvetica Neue',Arial,sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#4a5c59"/>
+    </marker>
+    <marker id="at" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0f5c55"/>
+    </marker>
+  </defs>
+
+  <rect width="1080" height="812" fill="#f7faf9"/>
+
+  <text x="32" y="40" font-size="21" font-weight="700" fill="#14201f">Mira — Router-Orchestrated Project Intelligence Assistant</text>
+  <text x="32" y="61" font-size="12.5" fill="#667774">Nexora Pvt. Ltd. · LangFlow + gpt-4o-mini + Langfuse · ABCDE Ltd. AI Adoption Project</text>
+
+  <!-- tracing envelope -->
+  <rect x="24" y="80" width="1032" height="646" rx="8" fill="none" stroke="#0f5c55" stroke-width="1.3" stroke-dasharray="7 5" opacity=".55"/>
+  <rect x="600" y="70" width="452" height="21" rx="4" fill="#f7faf9"/>
+  <text x="1044" y="86" font-size="10.5" font-weight="600" fill="#0f5c55" text-anchor="end">LANGFUSE — traces every span: route · I/O · tokens · latency · cost</text>
+
+  <!-- chat input -->
+  <rect x="420" y="104" width="240" height="42" rx="21" fill="#ffffff" stroke="#cfdad7" stroke-width="1.3"/>
+  <text x="540" y="130" font-size="13.5" font-weight="600" fill="#14201f" text-anchor="middle">Chat Input — user request</text>
+  <line x1="540" y1="146" x2="540" y2="176" stroke="#4a5c59" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <!-- orchestrator -->
+  <rect x="360" y="178" width="360" height="66" rx="6" fill="#dceae7" stroke="#0f5c55" stroke-width="1.6"/>
+  <text x="540" y="201" font-size="14.5" font-weight="700" fill="#0f5c55" text-anchor="middle">Orchestrator Agent</text>
+  <text x="540" y="219" font-size="11.5" fill="#2c4744" text-anchor="middle">Classifies intent only → PLAN · RISK · STATUS · MILESTONE · UNCLEAR</text>
+  <text x="540" y="235" font-size="11.5" font-style="italic" fill="#4a5c59" text-anchor="middle">Never judges data sufficiency — that is the specialist's job</text>
+  <line x1="540" y1="244" x2="540" y2="270" stroke="#4a5c59" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <!-- router bar -->
+  <rect x="300" y="272" width="480" height="34" rx="4" fill="#ffffff" stroke="#0f5c55" stroke-width="1.3"/>
+  <text x="540" y="294" font-size="12.5" font-weight="600" fill="#0f5c55" text-anchor="middle">Conditional Router — branches on the "route" field</text>
+
+  <!-- fan-out -->
+  <path d="M162,306 L162,338" stroke="#4a5c59" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+  <path d="M414,306 L414,338" stroke="#4a5c59" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+  <path d="M666,306 L666,338" stroke="#4a5c59" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+  <path d="M918,306 L918,338" stroke="#4a5c59" stroke-width="1.4" fill="none" marker-end="url(#a)"/>
+  <path d="M162,320 L918,320" stroke="#4a5c59" stroke-width="1.4" fill="none"/>
+  <path d="M540,306 L540,320" stroke="#4a5c59" stroke-width="1.4" fill="none"/>
+
+  <!-- specialists -->
+  <g>
+    <rect x="44" y="340" width="236" height="150" rx="6" fill="#ffffff" stroke="#cfdad7" stroke-width="1.3"/>
+    <rect x="44" y="340" width="236" height="4" rx="2" fill="#0f5c55"/>
+    <text x="60" y="367" font-size="13.5" font-weight="700" fill="#14201f">Planner Agent</text>
+    <text x="60" y="385" font-size="11" font-weight="600" fill="#0f5c55">ROUTE: PLAN</text>
+    <text x="60" y="404" font-size="11.5" fill="#3a4a48">Phases, activities, milestones,</text>
+    <text x="60" y="419" font-size="11.5" fill="#3a4a48">deliverables — grounded only</text>
+    <text x="60" y="434" font-size="11.5" fill="#3a4a48">in the supplied timeline.</text>
+    <text x="60" y="458" font-size="10.5" font-weight="600" fill="#667774">READS</text>
+    <text x="60" y="473" font-size="10.5" font-family="monospace" fill="#3a4a48">project_description.txt</text>
+    <text x="60" y="485" font-size="10.5" font-family="monospace" fill="#3a4a48">project_timeline.csv</text>
+  </g>
+
+  <g>
+    <rect x="296" y="340" width="236" height="150" rx="6" fill="#ffffff" stroke="#cfdad7" stroke-width="1.3"/>
+    <rect x="296" y="340" width="236" height="4" rx="2" fill="#0f5c55"/>
+    <text x="312" y="367" font-size="13.5" font-weight="700" fill="#14201f">Risk Assessor Agent</text>
+    <text x="312" y="385" font-size="11" font-weight="600" fill="#0f5c55">ROUTE: RISK</text>
+    <text x="312" y="404" font-size="11.5" fill="#3a4a48">Categorised matrix with impact</text>
+    <text x="312" y="419" font-size="11.5" fill="#3a4a48">and mitigation. Rankings are</text>
+    <text x="312" y="434" font-size="11.5" fill="#3a4a48">derived — and say so.</text>
+    <text x="312" y="458" font-size="10.5" font-weight="600" fill="#667774">READS</text>
+    <text x="312" y="473" font-size="10.5" font-family="monospace" fill="#3a4a48">project_risks.csv</text>
+    <text x="312" y="485" font-size="10.5" font-family="monospace" fill="#3a4a48">project_description.txt</text>
+  </g>
+
+  <g>
+    <rect x="548" y="340" width="236" height="150" rx="6" fill="#ffffff" stroke="#cfdad7" stroke-width="1.3"/>
+    <rect x="548" y="340" width="236" height="4" rx="2" fill="#0f5c55"/>
+    <text x="564" y="367" font-size="13.5" font-weight="700" fill="#14201f">Status Reporter Agent</text>
+    <text x="564" y="385" font-size="11" font-weight="600" fill="#0f5c55">ROUTE: STATUS</text>
+    <text x="564" y="404" font-size="11.5" fill="#3a4a48">Counts by status, blockers,</text>
+    <text x="564" y="419" font-size="11.5" fill="#3a4a48">R/A/G health by rule, plus</text>
+    <text x="564" y="434" font-size="11.5" fill="#3a4a48">stakeholder update emails.</text>
+    <text x="564" y="458" font-size="10.5" font-weight="600" fill="#667774">READS</text>
+    <text x="564" y="473" font-size="10.5" font-family="monospace" fill="#3a4a48">sample_task_board.csv</text>
+  </g>
+
+  <g>
+    <rect x="800" y="340" width="236" height="150" rx="6" fill="#ffffff" stroke="#cfdad7" stroke-width="1.3"/>
+    <rect x="800" y="340" width="236" height="4" rx="2" fill="#12766c"/>
+    <text x="816" y="367" font-size="13.5" font-weight="700" fill="#14201f">Milestone Tracker</text>
+    <text x="816" y="385" font-size="11" font-weight="600" fill="#12766c">ROUTE: MILESTONE</text>
+    <rect x="960" y="374" width="62" height="15" rx="7.5" fill="#dceae7"/>
+    <text x="991" y="385" font-size="9" font-weight="700" fill="#0f5c55" text-anchor="middle">EXTENDED</text>
+    <text x="816" y="404" font-size="11.5" fill="#3a4a48">Timeline vs. board: blocked and</text>
+    <text x="816" y="419" font-size="11.5" fill="#3a4a48">at-risk items, milestones inside</text>
+    <text x="816" y="434" font-size="11.5" fill="#3a4a48">the 14-day horizon.</text>
+    <text x="816" y="458" font-size="10.5" font-weight="600" fill="#667774">READS</text>
+    <text x="816" y="473" font-size="10.5" font-family="monospace" fill="#3a4a48">project_timeline.csv</text>
+    <text x="816" y="485" font-size="10.5" font-family="monospace" fill="#3a4a48">sample_task_board.csv</text>
+  </g>
+
+  <!-- every specialist output passes through the guardrail contract -->
+  <line x1="162" y1="490" x2="162" y2="512" stroke="#4a5c59" stroke-width="1.4" marker-end="url(#a)"/>
+  <line x1="414" y1="490" x2="414" y2="512" stroke="#4a5c59" stroke-width="1.4" marker-end="url(#a)"/>
+  <line x1="666" y1="490" x2="666" y2="512" stroke="#4a5c59" stroke-width="1.4" marker-end="url(#a)"/>
+  <line x1="918" y1="490" x2="918" y2="512" stroke="#4a5c59" stroke-width="1.4" marker-end="url(#a)"/>
+
+  <rect x="44" y="514" width="992" height="54" rx="5" fill="#f5e0dc" stroke="#9e3a2b" stroke-width="1.2"/>
+  <text x="60" y="534" font-size="11.5" font-weight="700" fill="#9e3a2b">GUARDRAIL — every specialist carries the same vague-input rule</text>
+  <text x="60" y="550" font-size="11.5" fill="#5f2b21">Insufficient data → return {"status":"insufficient_information", "missing":[…]} and generate nothing.</text>
+  <text x="60" y="563" font-size="11.5" fill="#5f2b21">Graded by T2, T4, T6, T9 — a plausible answer is a failure, not partial credit.</text>
+
+  <line x1="540" y1="568" x2="540" y2="592" stroke="#4a5c59" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <!-- formatter -->
+  <rect x="360" y="594" width="360" height="56" rx="6" fill="#ffffff" stroke="#0f5c55" stroke-width="1.4"/>
+  <text x="540" y="616" font-size="13.5" font-weight="700" fill="#14201f" text-anchor="middle">Response Formatter</text>
+  <text x="540" y="633" font-size="11" fill="#4a5c59" text-anchor="middle">Renders the specialist's JSON as Markdown.</text>
+  <text x="540" y="646" font-size="11" fill="#4a5c59" text-anchor="middle">Sees no source files, so it cannot add facts.</text>
+  <line x1="540" y1="650" x2="540" y2="672" stroke="#4a5c59" stroke-width="1.5" marker-end="url(#a)"/>
+
+  <rect x="420" y="674" width="240" height="42" rx="21" fill="#ffffff" stroke="#cfdad7" stroke-width="1.3"/>
+  <text x="540" y="700" font-size="13.5" font-weight="600" fill="#14201f" text-anchor="middle">Chat Output</text>
+
+  <!-- footer notes -->
+  <text x="32" y="756" font-size="11.5" font-weight="700" fill="#0f5c55">GROUNDING</text>
+  <text x="32" y="772" font-size="11.5" fill="#3a4a48">Direct context injection, no RAG — the entire corpus is 8,322 bytes (~2,080 tokens). Each agent is wired only to the files it may read, making the</text>
+  <text x="32" y="787" font-size="11.5" fill="#3a4a48">prompt rule a structural guarantee. Time anchors are derived from the data: AS_OF_DATE = 2026-04-21, PROJECT_START = 2026-03-30.</text>
+  <text x="32" y="804" font-size="11.5" fill="#667774">Routing distribution across the 12 graded inputs — PLAN 3 · RISK 3 · STATUS 4 · MILESTONE 2. Every branch exercised.</text>
+</svg>
