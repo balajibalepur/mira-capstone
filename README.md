@@ -135,16 +135,16 @@ in [`eval/results/baseline_results.md`](eval/results/).
 | P3 | Planner and Risk Assessor agents | 🟡 Prompts written, awaiting LangFlow build |
 | P4 | Router orchestrator and Milestone Tracker | 🟡 Prompts written, awaiting LangFlow build |
 | P5 | Full evaluation run and documented fix | ⚪ Not started |
-| P6 | Q1, Q3, Q4, architecture writeup, deck | ⚪ Not started |
+| P6 | Q1, Q3, Q4, architecture writeup, deck | 🟡 Q1 + Q3 drafted; Q4 and deck need build evidence |
 | P7 | Rubric audit | ⚪ Not started |
 
 ## Deliverables index
 
 | Assignment | Points | Document |
 |---|---|---|
-| Q1 — Ideation | 15 | [`docs/Q1_ideation.md`](docs/) _(TBD)_ |
+| Q1 — Ideation | 15 | [`docs/Q1_ideation.md`](docs/Q1_ideation.md) ✅ draft |
 | Q2 — Build Mira | 45 | [`docs/architecture.md`](docs/architecture.md) ✅, [`workflow/prompts/`](workflow/prompts/) ✅, [`workflow/mira_workflow.json`](workflow/) _(TBD)_, [`eval/results/`](eval/results/) _(TBD)_ |
-| Q3 — Program Charter | 25 | [`docs/Q3_program_charter.md`](docs/) _(TBD)_ |
+| Q3 — Program Charter | 25 | [`docs/Q3_program_charter.md`](docs/Q3_program_charter.md) ✅ draft |
 | Q4 — Reflection | 15 | [`docs/Q4_reflection.md`](docs/) _(TBD)_ |
 
 ---
