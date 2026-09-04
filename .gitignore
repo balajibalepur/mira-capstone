@@ -1,0 +1,26 @@
+# Secrets — never commit real keys
+.env
+.env.local
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node (if the platform needs it)
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local scratch — keep the repo to submission artifacts only
+scratch/
+tmp/
